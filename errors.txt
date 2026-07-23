@@ -1,0 +1,11 @@
+line 2: Empty field --> ,PS4,2015,Action,Sony,3.5,85,DevStudio,M
+line 3: Empty field --> Game B,,2012,Shooter,Microsoft,2.7,78,GameMakers,M
+line 4: Empty field --> Game C,PC,,Strategy,EA,1.2,90,ThinkDev,E
+line 5: Empty field --> Game D,PS4,2016,,Sony,5.3,88,NextGen,M
+line 6: Empty field --> Game E,Switch,2019,Adventure,,6.1,92,NintendoDev,E
+line 7: Empty field --> Game F,PS4,2011,Action,Sony,,81,DevStudio,M
+line 8: Empty field --> Game G,Xbox,2014,Shooter,Microsoft,2.9,,,
+line 10: Invalid data: WrongValue --> Game B,Xbox,2012.2,Shooter,Microsoft,2.7,-78,GameMakers,M
+line 12: Invalid data: WrongValue --> Game D,PS4,1800,Action,Sony,-5.3,88,NextGen,M
+line 14: Invalid data: ValueError --> Game F,PS4,AAA,Action,Sony,2,AA,DevStudio,M
+line 15: Invalid data: ValueError --> Game G,Xbox,2014,Shooter,Microsoft,BB.9,80,GameMakers,M
