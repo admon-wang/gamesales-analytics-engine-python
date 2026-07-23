@@ -25,7 +25,7 @@ python T05F_AdmonWangJianxin_9069884.py
 The `Analytic` class is designed for easy integration. You can easily query data after loading it:
 
 ```python
-from T05F_AdmonWangJianxin_9069884 import Analytic
+from main import Analytic
 
 # Load the file
 analytics = Analytic('GamesSales.csv')
